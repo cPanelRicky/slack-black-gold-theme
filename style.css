@@ -150,6 +150,11 @@ ts-jumper input[type="text"],
 	background: var(--background-elevated);
 }
 
+.c-message__editor__save {
+	background: var(--background-elevated);
+	color: var(--text);
+}
+
 .c-message_list__day_divider__label__pill {
 	background: var(--background-elevated);
 	color: var(--text-bright);
