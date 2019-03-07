@@ -1365,6 +1365,7 @@ ts-jumper ts-jumper-container {
 
 .c-menu_item__header {
 	background: var(--background-hover);
+	color: var(--text);
 }
 
 .sidebar_menu_list_item {
