@@ -895,6 +895,20 @@ ts-thread .view_all_replies_container:hover {
 }
 
 /* preferences page and modals in general*/
+.c-fullscreen_modal__body {
+	color: var(--text);
+}
+
+.c-sidebar_menu__list_item {
+        color: var(--text);
+}
+
+.c-sidebar_menu__list_item.is_active {
+	background: var(--background-elevated);
+	color: var(--text);
+	border: var(--border-dim);
+}
+.c-sidebar_menu__list_item:not(.is_active):hover 
 #fs_modal, .modal, .modal-header, .modal-footer {
 	background-color: var(--background-elevated);
 }
